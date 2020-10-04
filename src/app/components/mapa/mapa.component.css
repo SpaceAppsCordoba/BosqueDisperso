@@ -1,0 +1,9 @@
+.fondo{
+    width: 270px;
+    margin: auto;
+    height: 400px;
+    background-image: url('../../../assets/images/mapa.png');
+}
+img{
+    height: 45px;
+}

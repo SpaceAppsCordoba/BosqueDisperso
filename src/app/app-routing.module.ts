@@ -13,6 +13,10 @@ import { LogrosComponent } from "./components/logros/logros.component";
 import { NoPlantarComponent } from "./components/no-plantar/no-plantar.component";
 import { MapaComponent } from "./components/mapa/mapa.component";
 import { PerfilComponent } from "./components/perfil/perfil.component";
+import { Arbol1Component } from "./components/arbol1/arbol1.component";
+import { Arbol2Component } from "./components/arbol2/arbol2.component";
+import { Arbo3Component } from "./components/arbo3/arbo3.component";
+import { Arbol4Component } from "./components/arbol4/arbol4.component";
 
 const routes: Routes = [
   {path:'', component: HomeComponent},
@@ -29,6 +33,10 @@ const routes: Routes = [
   {path:'no-plantar', component: NoPlantarComponent},
   {path:'mapa', component: MapaComponent},
   {path:'perfil', component: PerfilComponent},
+  {path:'arbol1', component: Arbol1Component},
+  {path:'arbol2', component: Arbol2Component},
+  {path:'arbol3', component: Arbo3Component},
+  {path:'arbol4', component: Arbol4Component},
 ];
 
 @NgModule({

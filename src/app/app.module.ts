@@ -17,6 +17,10 @@ import { LogrosComponent } from './components/logros/logros.component';
 import { NoPlantarComponent } from './components/no-plantar/no-plantar.component';
 import { MapaComponent } from './components/mapa/mapa.component';
 import { PerfilComponent } from './components/perfil/perfil.component';
+import { Arbol1Component } from './components/arbol1/arbol1.component';
+import { Arbol2Component } from './components/arbol2/arbol2.component';
+import { Arbo3Component } from './components/arbo3/arbo3.component';
+import { Arbol4Component } from './components/arbol4/arbol4.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +38,11 @@ import { PerfilComponent } from './components/perfil/perfil.component';
     LogrosComponent,
     NoPlantarComponent,
     MapaComponent,
-    PerfilComponent
+    PerfilComponent,
+    Arbol1Component,
+    Arbol2Component,
+    Arbo3Component,
+    Arbol4Component
   ],
   imports: [
     BrowserModule,
