@@ -1,0 +1,51 @@
+<nav class="navbar " role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" routerLink="/home" href="/home">
+        <img src="../../../assets/images/Logo-Circulo.png"  height="250px" style=" max-height: 7rem;">
+      </a>
+      <h2 class="subtitle" style="margin: auto;"> <strong>BOSQUE DISPERSO</strong></h2>
+      
+      <a role="button" class="navbar-burger burger "  [class]="mobile" (click)="change()" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden=""></span>
+        <span aria-hidden=""></span>
+        <span aria-hidden=""></span>
+      </a>
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu" [class]="mobile" >
+      <div class="navbar-start">
+        <a class="navbar-item" routerLink="/home">
+          Home
+        </a>
+        
+        <a class="navbar-item" routerLink="/perfil">
+          Perfil
+        </a>
+        
+        <a class="navbar-item" routerLink="/logros">
+          Logros
+        </a>
+
+        <a class="navbar-item" routerLink="/mapa">
+          Mapa
+        </a>
+        <a class="navbar-item" routerLink="/ranking">
+          Comunidad
+        </a>
+  
+      </div>
+  
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button boton is-light">
+              <strong>Registrarse</strong>
+            </a>
+            <a class="button is-light" routerLink="/login">
+              Iniciar Sesion
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>

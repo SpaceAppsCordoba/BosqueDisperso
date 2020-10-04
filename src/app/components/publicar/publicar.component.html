@@ -1,0 +1,123 @@
+<app-navbar></app-navbar>
+<div class="modal is-active">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Plantar un Arbol</p>
+        <button class="delete" aria-label="close" routerLink="/home"></button>
+      </header>
+      <section class="modal-card-body">
+        
+        
+
+
+        <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">Cargar Arbol</label>
+            </div>
+            <div class="field-body">
+              <div class="field">
+                <p class="control is-expanded has-icons-left">
+                  <input class="input" type="text" placeholder="Nombre Especie">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-user"></i>
+                  </span>
+                </p>
+              </div>
+    
+            </div>
+          </div>
+          
+          
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">PAIS</label>
+            </div>
+            <div class="field-body">
+              <div class="field is-narrow">
+                <div class="control">
+                  <div class="select is-fullwidth">
+                    <select>
+                      <option>Argentina</option>
+                      <option disabled>Uruguay</option>
+                      <option disabled>Brasil</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">LOCALIDAD</label>
+            </div>
+            <div class="field-body">
+              <div class="field is-narrow">
+                <div class="control">
+                  <div class="select is-fullwidth">
+                    <select>
+                        <option>Córdoba</option>
+                        <option disabled>San Juan</option>
+                        <option disabled>Mendoza</option>
+                      </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+          
+          <div class="field is-horizontal has-text-centered">
+            <div class="field-label is-normal">
+              <label class="label">Cargar Ubicacion Mapa</label>
+            </div>
+            <img src="../../../assets/images/001-location.svg" style="height: 100px;" alt="">
+          </div>
+          
+          <div class="field is-horizontal has-text-centered">
+            <div class="field-label is-normal">
+              <label class="label">Descripción Publicación</label>
+            </div>
+            <div class="field-body">
+              <div class="field">
+                <div class="control">
+                  <textarea class="textarea" placeholder="Hoy Plante...."></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="field is-horizontal">
+            <div class="field-label">
+              <!-- Left empty for spacing -->
+            </div>
+            <div class="field-body">
+              <div class="field">
+                <div class="control">
+                  <button routerLink="/cargar-foto" class="button is-primary">
+                    Tomar una foto
+                  </button>
+                  <button class="button is-warning has-text-white ml-2">
+                    Cargar una imagen
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button" routerLink="/ranking">Publicar</button>
+        <button class="button" routerLink="/home">cancelar</button>
+      </footer>
+    </div>
+  </div>
